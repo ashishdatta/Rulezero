@@ -12,21 +12,21 @@ var bgImage = new Image();
 bgImage.onload = function(){
 	bgReady=true;
 }
-bgImage.src="img/background2.png";
+bgImage.src="https://raw.github.com/ashishdatta/website/master/img/background2.png";
 //hero Image
 var heroReady = false;
 var heroImage = new Image();
 heroImage.onload = function(){
 	heroReady = true;
 }
-heroImage.src="img/hero.png";
+heroImage.src="https://raw.github.com/ashishdatta/website/master/img/hero.png";
 //monster Image
 var monsterReady = false;
 var monsterImage = new Image();
 monsterImage.onload = function(){
 	monsterReady = true;
 }
-monsterImage.src="img/monster.png";
+monsterImage.src="https://raw.github.com/ashishdatta/website/master/img/monster.png";
 //Game objects
 var hero = {
 	speed: 256, //pixels per second
