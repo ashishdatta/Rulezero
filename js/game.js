@@ -12,7 +12,7 @@ var bgImage = new Image();
 bgImage.onload = function(){
 	bgReady=true;
 }
-bgImage.src="img/background.png";
+bgImage.src="img/background2.png";
 //hero Image
 var heroReady = false;
 var heroImage = new Image();
@@ -109,7 +109,7 @@ var update = function (modifier){
 		ctx.font = "24px Helvetica";
 		ctx.textAlign = "left";
 		ctx.textBaseline = "top"
-		ctx.fillText("Goblins caught: " + monstersCaught, 32,32);
+		ctx.fillText("Monsters Caught: " + monstersCaught, 32,32);
 	};
 
 	var main = function() {
